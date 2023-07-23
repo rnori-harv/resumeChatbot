@@ -52,7 +52,7 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-if prompt := st.chat_input("Ask anything about Rakesh's resume: "):
+if prompt := st.chat_input("Ask anything about Rakesh's resumé: "):
     # Display user message in chat message container
     with st.chat_message("user"):
         st.markdown(prompt)
