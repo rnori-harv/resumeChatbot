@@ -49,7 +49,7 @@ st.markdown("Ask anything about Rakesh's resumé and this chatbot will try to an
 
 # Display chat messages from history on app rerun
 
-if prompt := st.chat_input("Ask anything about Rakesh's resumé: "):
+if prompt := st.chat_input("Ask something: "):
     # Display user message in chat message container
     with st.chat_message("user"):
         st.markdown(prompt)
