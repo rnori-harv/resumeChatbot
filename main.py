@@ -44,8 +44,8 @@ model = setup()
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-st.title("Chat with Rakesh's Resumé")
-st.markdown("Ask anything about Rakesh's background, experience, skills, etc and this chatbot will try to answer it. Trained on Rakesh's Resume.")
+st.title("Talk to My Resumé")
+st.markdown("Ask anything about my background, experience, skills, etc and this chatbot will try to answer it. Built using chromadb, langchain, and python.")
 
 # Display chat messages from history on app rerun
 
