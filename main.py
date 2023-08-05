@@ -49,7 +49,7 @@ st.markdown("Ask anything about my background, experience, skills, etc and this 
 
 # Display chat messages from history on app rerun
 
-if prompt := st.chat_input("ex: \"What are some classes Rakesh has taken?\""):
+if prompt := st.chat_input("ex: \"When will Rakesh graduate?\""):
     # Display user message in chat message container
     with st.chat_message("user"):
         st.markdown(prompt)
