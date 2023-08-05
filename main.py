@@ -45,11 +45,11 @@ if "messages" not in st.session_state:
     st.session_state.messages = []
 
 st.title("Talk to My Resumé")
-st.markdown("Ask anything about my background, experience, skills, etc and this chatbot will try to answer it. Built using chromadb, langchain, and python.")
+st.markdown("Ask anything about my background, experience, skills, etc and this chatbot will try to answer it. Built using chromadb, langchain, and python. If you want to learn more personal information, refer to the Get In Touch section.")
 
 # Display chat messages from history on app rerun
 
-if prompt := st.chat_input("ex: \"When will Rakesh graduate?\""):
+if prompt := st.chat_input("Ask something: "):
     # Display user message in chat message container
     with st.chat_message("user"):
         st.markdown(prompt)
